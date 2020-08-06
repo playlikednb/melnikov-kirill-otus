@@ -1,0 +1,11 @@
+html
+  head
+    title= `${user.name}'s page`
+    link(href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap' rel='stylesheet')
+    style
+      include style.css
+  body(style={'font-size': userTemplate.fontSize, 'color': userTemplate.fontColor, 'background': `linear-gradient(135deg, ${userTemplate.bgColor}, #80d0c7 100%);`})
+    h1.title My private page
+    div.content
+      div.name= `${user.name}, ${user.age}`
+      div.pos= user.position
