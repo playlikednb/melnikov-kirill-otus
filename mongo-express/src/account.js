@@ -69,27 +69,4 @@ router.post("/api/user", function (req, res) {
   });
 });
 
-// router.put("/api/person", function (req, res) {
-//   Person.findOneAndUpdate(req.body.id, { ...req.body }, (err, person) => {
-//     if (err) {
-//       return res.status(500).send({ error: "Server error" });
-//     }
-//     if (!person) {
-//       return res.status(404).send({ error: "Server error" });
-//     }
-//     res.send(person);
-//   });
-// });
-
-// router.delete("/api/person", function (req, res) {
-//   Person.findOneAndDelete(req.body.id, (err, person) => {
-//     if (err) {
-//       return res.status(404).send({ error: "Server error" });
-//     }
-//     res.status(200).send(person);
-//   });
-// });
-
-// TODO: add other methods here
-
 module.exports = router;

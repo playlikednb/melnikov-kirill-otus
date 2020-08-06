@@ -47,7 +47,7 @@ router.patch("/api/template", function (req, res) {
   );
 });
 
-// Add user to a template
+// Delete template
 router.delete("/api/template", function (req, res) {
   Template.findByIdAndDelete(req.body.id, (err, template) => {
     if (err) {

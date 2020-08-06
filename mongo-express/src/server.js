@@ -15,6 +15,4 @@ app.get("/", (req, res) => {
   res.status(200).send("Hello!");
 });
 
-// TODO: add other routes here
-
 app.listen(3000, () => console.log("Express server listening on 3000"));
