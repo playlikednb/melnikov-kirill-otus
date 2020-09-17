@@ -1,0 +1,9 @@
+{
+  "users": [
+    {id: 1, name: "Kirill"},
+    {id: 2, name: "Ivan"}
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
